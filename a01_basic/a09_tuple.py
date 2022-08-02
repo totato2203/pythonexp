@@ -33,8 +33,8 @@ numTup04 = 10,; print("튜플변수4:",numTup04)
     튜플변수[1:3]
     del(튜플변수) : 튜플데이터를 수정하는 것이 아니라 삭제를 하기에 가능하다.
 '''
-# numTup01.append(50)
-# numTup01[0] = 50
+# numTup01.append(50) : 구조 변경 에러 발생
+# numTup01[0] = 50 
 # del(numTup01[0])
 print("튜플변수의 첫번째 데이터:", numTup01[0])
 print("튜플변수의 추출 데이터:", numTup01[1:3])
